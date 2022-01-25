@@ -75,7 +75,8 @@ nav {
     color: #F36827;
 }
 
-#menu_list button {}
+
+/* #menu_list button {} */
 
 .btn {
     outline: none;
@@ -92,3 +93,6 @@ nav {
 #Nav_btn {
     margin-left: 32px;
 }
+
+
+/* navbar DropDown list */
