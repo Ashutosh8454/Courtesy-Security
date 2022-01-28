@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../Css/Footer.css">
     <link rel="stylesheet" href="../Css/Home.css">
     <link rel="icon" href="../IMG/logo.png">
+    <script src="../Javascript/navbar.js"></script>
 </head>
 
 <body>
@@ -19,17 +20,37 @@
         <div id="logo_name">
             <img src="../IMG/logo.png" alt="Courtesy-Security-Logo">
             <p>CourtesySecurity</p>
+
         </div>
         <div id="menu_list">
             <ul>
                 <li><a href="../Html/Home.html">Home</a></li>
-                <li><a href="../Html/Security_Service.html">Service</a><i class="fas fa-chevron-down"></i></li>
+                <li onclick="Drop_down()"><a>Service</a><i class="fas fa-chevron-down dropbtn"></i></li>
                 <li><a href="../Html/About.html">About</a></li>
                 <button class="btn" id="Nav_btn">Contact</button>
             </ul>
         </div>
     </nav>
-    <div class="Drop_down_list">
+    <div class="Drop_down_list" id="drop">
+        <div class="list-one-one">
+            <p>Security service</p>
+            <a href=""><i class="fas fa-arrow-right"></i></a>
+        </div>
+        <hr>
+        <div class="list-one-one">
+            <p id="left-mnius">Manpower </p>
+            <a href=""> <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <hr>
+        <div class="list-one-one">
+            <p>House-Keeping</p>
+            <a href=""><i class="fas fa-arrow-right"></i></a>
+        </div>
+        <hr>
+        <div class="list-one-one">
+            <p> Tours & Transport</p>
+            <a href=""><i class="fas fa-arrow-right"></i></a>
+        </div>
 
     </div>
 </body>
