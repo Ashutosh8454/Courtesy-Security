@@ -1,0 +1,108 @@
+/*----------------Banner---------------------*/
+.banner{
+	margin: 0px 0px 0px 0px;
+	background-image: url(../IMG/About/banner.png);
+	background-position: center;
+	height: 150px;
+	width: 100%;
+	font-size: 60px;
+	color: white;
+	display: flex;
+	text-align: center;
+}
+
+.banner h4{
+	position: relative;
+	top: 40px;
+	margin-left: 40%;
+}
+
+/*--------------Company info-------------------*/
+.company-info{
+	margin: 0px 104px 0px 115px;
+}
+.company-info-title{
+	color: #F36827;
+	font-size: 30px;
+	margin-top: 40px;
+	display: flex;
+}
+.line1{
+	margin-left: 8px;
+	display: flex;
+	flex-direction: row;
+	height: 0px;
+	color: #18254F;
+}
+
+.company-info-text{
+	display: flex;
+	flex-direction: row;
+	
+}
+.company-info-line{
+	margin-top: 25px;
+	font-size: 18px;
+	color: #18254F;
+}
+.company-info-logo{
+	display: flex;
+	flex-direction: row-reverse;
+	width: 480px;
+	height: 350px;
+	margin-left: 20px;
+}
+
+/* ethic of company */
+
+.ethic{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.section1, .section2, .section3{
+	background-color: #2F3F60;
+	border-radius: 10px;
+	margin-right: 20px;
+	width: 355px;
+	height: 533.6;
+}
+
+.section1-title{
+	margin: 20px 10px 10px 90px;
+}
+
+.section1-title h4{
+	font-size: 30px;
+}
+
+.section1-title img{
+	margin-right: 10px;
+}
+
+.section1-text{
+	margin: 30px 30px 30px 30px;
+	
+}
+.section1-text ul{
+	list-style: none;
+}
+
+.section1-text ul, .section2-text ul, .section3-text ul{
+	margin-top: 3px;
+	font-size: 16px;
+	font-weight: 450;
+}
+
+.section1-text ul li::before{
+	content: "✓";
+	color: white;
+	margin-right: 10px;
+	size: 10px;
+}
+
+.section1-text ul li{
+	margin-top: 20px;
+}
