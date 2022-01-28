@@ -105,6 +105,7 @@ nav {
     position: relative;
     left: 864px;
     display: none;
+    z-index: 1;
 }
 
 .Drop_down_list hr {
