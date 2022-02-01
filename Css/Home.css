@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.hero-section {
+    background-color: #2F3F60;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section img {
+    height: 360px;
+}
+
+@media screen and (max-width: 1030px) {
+    .hero-section img {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 946px) {
+    .hero-section img {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .hero-section img {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero-section img {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .hero-section img {
+        height: 100px;
+    }
+}

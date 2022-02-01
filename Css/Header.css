@@ -97,3 +97,45 @@ nav {
 
 
 /* navbar DropDown list */
+
+.Drop_down_list {
+    width: 200px;
+    background-color: #9b9bb6;
+    color: white;
+    position: absolute;
+    left: 864px;
+    z-index: 1;
+}
+
+#drop {
+    display: none;
+}
+
+.Drop_down_list hr {
+    color: white;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.list-one-one {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    align-items: center;
+}
+
+.list-one-one:hover {
+    background-color: #F36827;
+    cursor: pointer;
+}
+
+.list-one-one p {}
+
+.list-one-one i {
+    margin-left: 8px;
+    margin-top: 4px;
+}
+
+.list-one-one a {
+    color: white;
+}
