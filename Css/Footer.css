@@ -1,9 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
+/*--------------------footer--------------------------*/
 footer{
-	position: fixed;
 	bottom: 0;
 }
 
@@ -20,7 +17,7 @@ footer{
 	text-align: left;
 	font: bold 16px sans-serif;
 	padding: 30px 104px 30px 104px;
-	margin-top: 80px;
+	margin-top: 0px;
 }
 
 .footer-distributed .footer-left, .footer-center, .footer-right{
@@ -33,6 +30,7 @@ footer{
 
 .footer-distributed .footer-left{
 	width: 30%;
+
 }
 
 .footer-distributed h3{
@@ -52,7 +50,7 @@ footer{
 	color:  #ffffff;
 }
 
-/* Footer links  for pages */
+/* Footer links  for pages*/
 
 .footer-distributed .footer-links{
 	color:  #ffffff;
@@ -60,7 +58,7 @@ footer{
 }
 
 .footer-distributed .footer-links a{
-	display: inline-block;
+	display:inline-block;
 	line-height: 1.8;
 	text-decoration: none;
 	color:  inherit;
@@ -174,6 +172,7 @@ footer{
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
+
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
