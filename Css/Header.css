@@ -139,3 +139,102 @@ nav {
 .list-one-one a {
     color: white;
 }
+
+
+/* <-------Responsive---------> */
+
+@media screen and (max-width: 1204px) {
+    .Drop_down_list {
+        left: 740px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .Drop_down_list {
+        left: 680px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .Drop_down_list {
+        left: 600px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .Drop_down_list {
+        left: 520px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .Drop_down_list {
+        left: 460px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .Drop_down_list {
+        left: 400px;
+    }
+    #logo_name {
+        margin-left: 48px;
+    }
+    #logo_name p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #menu_list {
+        margin-right: 0px;
+    }
+    .Drop_down_list {
+        left: 260px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .Drop_down_list {
+        left: 200px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .Drop_down_list {
+        left: 150px;
+    }
+    #logo_name {
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .Drop_down_list {
+        left: 120px;
+    }
+    #Nav_btn {
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .Drop_down_list {
+        left: 100px;
+    }
+    .btn {
+        height: 30px;
+        width: 80px;
+        font-size: 12px;
+    }
+    #menu_list ul li a {
+        margin-left: 0px;
+    }
+}
