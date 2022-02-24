@@ -1,151 +1,81 @@
-.banner{
-	margin: 0px 0px 0px 0px;
-	background-image: url(../IMG/About/banner.png);
-	background-position: center;
-	height: 150px;
-	width: 100%;
-	font-size: 60px;
-	color: white;
-	display: flex;
-	text-align: center;
+#banner{
+	        background: url(../IMG/About/banner.png);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			text-align: center;
+			padding: 24px 0;
+}
+#banner h1{
+	 color: rgb(255, 255, 255);
+	 font-weight: 700;
+	 font-size: 48px;
+
 }
 
-.banner h4{
-	position: relative;
-	top: 40px;
-	margin-left: 40%;
-}
+/* <-----------welcome section---------> */
 
-/*--------------Company info-------------------*/
-.company-info{
-	margin: 0px 104px 0px 115px;
+#welcome{
+	padding: 24px 160px;
 }
-.company-info-title{
-	color: #F36827;
-	font-size: 30px;
-	margin-top: 40px;
-	display: flex;
-}
-.line1{
-	margin-left: 8px;
-	display: flex;
-	flex-direction: row;
-	height: 0px;
-	color: #18254F;
-}
-
-.company-info-text{
-	display: flex;
-	flex-direction: row;
+#welcome h2{
+	font-size: 32px;
 	
-}
-.company-info-line{
-	margin-top: 25px;
-	font-size: 18px;
-	color: #18254F;
-}
-.company-info-logo{
-	display: flex;
-	flex-direction: row-reverse;
-	width: 480px;
-	height: 350px;
-	margin-left: 20px;
+	color: #F36827;
+
 }
 
-/* ethic of company */
-
-.ethic{
+.welcome-section{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	margin-top: 40px;
+	align-items: center;
+}
+.welcome-section1{}
+.welcome-section1 p{
+	font-size: 24px;
+	font-weight: 100;
+	opacity: 0.8;
+}
+.welcome-section2 img{
+	height: 250px;
 }
 
-.section1, .section2, .section3{
-	background-color: #2F3F60;
-	border-radius: 10px;
-	margin-right: 20px;
-	width: 355px;
-	height: 533.6;
+/* <------------Responsive-------------------> */
+
+@media screen and (max-width: 980px)
+
+{
+	#welcome{
+		padding: 20px 80px;
+	}
+
 }
 
-.section1-title{
-	margin: 20px 10px 10px 100px;
-}
-
-.section1-title h4{
-	font-size: 30px;
-}
-
-.section1-title img{
-	margin-right: 10px;
-	margin-left: 3px;
-}
-
-.subline1{
-	margin-left: 39px;
-	width: 280px;
-}
-
-.section1-text{
-	margin: 30px 30px 30px 30px;
+@media screen and (max-width: 760px)
+{
+	#banner h1{
+		
+		font-size: 30px;
+   
+   }
+	#welcome{
+		padding: 16px 60px;
+		text-align: center;
 	
-}
-.section1-text ul{
-	list-style: none;
-}
+	}
+	#welcome h2{
+		font-size: 24px;
+	}
 
-.section1-text ul{
-	margin-top: 3px;
-	font-size: 16px;
-	font-weight: 450;
-}
+	.welcome-section{
+	font-size: 14px;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: center;
+	
+     }
+	 .welcome-section2 img{
+		height: 200px;
+	}
 
-.section1-text ul li::before{
-	content: "✓";
-	color: white;
-	margin-right: 10px;
-	size: 10px;
-}
-
-.section1-text ul li{
-	margin-top: 20px;
-}
-
-/*------------Director Info--------------*/
-
-.director{
-	display: flex;
-	margin-top: 80px;
-	background-color: #EBEDF6;
-
-}
-.director-info{
-	display: flex;
-	margin: 10px 104px;
-}
-.director-info-img img{
-	flex-direction: row;
-	width: 200px;
-	height: 200px;
-	margin: 60px 60px 40px 40px;
-}
-.director-info-title{
-	flex-direction: row-reverse;
-	margin: 40px 40px 40px 40px;
-}
-.director-info-title h3{
-	font-size: 50px;
-	color: #F36827;
-}
-.director-info-title h6{
-	margin-left: 270px;
-	font-size: 15px;
-	color: #F36827;
-}
-
-.director-info-detail{
-	margin-top: 20px;
-	color: #2F3F60;
-	font-size: 25px;
 }

@@ -1,0 +1,259 @@
+<div class="banner">
+        <h4>
+            ABOUT US
+        </h4>
+    </div>
+    <div class="company-info">
+        <div class="company-info-title">
+            <h3>Welcome To Courtesy Security Services</h3>
+        </div>
+        <hr width="600px" class="line1">
+
+        <div class="company-info-text">
+            <!------company info------------->
+            <div class="company-info-line">
+                <p>Courtesy Security India Pvt. Ltd. started in 2021 is formed by Mr Sachin S. Patil (Managing Director) having valued experience around 12 years in field of labour contracting with an in-depth knowledge of various Legal matters associated
+                    with labour related activities and we are introducing new startup of security services through Courtesy security services.
+                    <br><br> Company would like to request you to spare your valuable time with us.
+                    <br><br> The objective of success lies in our commitment to offering TOTAL QUALITY SERVICES resulting in satisfied customers and repeat contracts.
+                    <br><br> We are pleased to introduce ourselves as an ISO certified security agency, such as security guards, bouncers, bodyguards, manpower suppliers, housekeeping services, corporate drivers & allied services all over Maharashtra.</p>
+            </div>
+            <div class="company-info-logo">
+                <img src="../IMG/About/logo.png" alt="">
+            </div>
+        </div>
+
+        <div class="ethic">
+            <!--------------company ethics------------->
+            <div class="section1">
+                <!------vision------------->
+                <div class="section1-title">
+                    <h4>
+                        <img src="../IMG/About/vision.png" width="30px"> VISION
+                    </h4>
+                </div>
+                <hr class="subline1">
+
+                <div class="section1-text">
+                    <ul>
+                        <li>To ensure safety.</li>
+                        <li>To secure service providers.</li>
+                        <li>To address the needs of customers.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section1">
+                <div class="section1-title">
+                    <h4>
+                        <img src="../IMG/About/mission.png" width="32px" id="mission"> MISSION
+                    </h4>
+                </div>
+                <hr class="subline1">
+                <div class="section1-text">
+                    <ul>
+                        <li>To increase community awareness towards security issues.</li>
+                        <li>To make business and residential communities safer.</li>
+                        <li>To inform and educate our customers on the security solutions available.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section1">
+                <div class="section1-title">
+                    <h4>
+                        <img src="../IMG/About/values.png" width="20px"> VALUES
+                    </h4>
+                </div>
+                <hr class="subline1">
+                <div class="section1-text">
+                    <ul>
+                        <li>Service, Integrity and professionalism.</li>
+                        <li>Social responsibility.</li>
+                        <li>Innovation and quality improvement</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--dirctor info-->
+    <div class="director">
+        <div class="director-info">
+            <div class="director-info-img">
+                <img src="../IMG/About/logo.png">
+            </div>
+            <div class="director-info-title">
+                <h3>Mr. Sachin S. Patil</h3>
+                <h6>Managing Director of Courtesy Security India Pvt.Ltd.</h6>
+
+                <div class="director-info-detail">
+                    <p>Mr. Sachin S. Patil (Managing Director) of Courtesy Security India Pvt. Ltd has been started in 2021. He has an experience of about 12 year in this maga service team which provides over 11 services in almost evey fields. With this
+                        emerging idea he will be going to become an shinning Service Provider in India.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+.banner{
+	margin: 0px 0px 0px 0px;
+	background-image: url(../IMG/About/banner.png);
+	background-position: center;
+	height: 150px;
+	width: 100%;
+	font-size: 60px;
+	color: white;
+	display: flex;
+	text-align: center;
+}
+
+.banner h4{
+	position: relative;
+	top: 40px;
+	margin-left: 40%;
+}
+
+/*--------------Company info-------------------*/
+.company-info{
+	margin: 0px 104px 0px 115px;
+}
+.company-info-title{
+	color: #F36827;
+	font-size: 30px;
+	margin-top: 40px;
+	display: flex;
+}
+.line1{
+	margin-left: 8px;
+	display: flex;
+	flex-direction: row;
+	height: 0px;
+	color: #18254F;
+}
+
+.company-info-text{
+	display: flex;
+	flex-direction: row;
+	
+}
+.company-info-line{
+	margin-top: 25px;
+	font-size: 18px;
+	color: #18254F;
+}
+.company-info-logo{
+	display: flex;
+	flex-direction: row-reverse;
+	width: 480px;
+	height: 350px;
+	margin-left: 20px;
+}
+
+/* ethic of company */
+
+.ethic{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.section1, .section2, .section3{
+	background-color: #2F3F60;
+	border-radius: 10px;
+	margin-right: 20px;
+	width: 355px;
+	height: 533.6;
+}
+
+.section1-title{
+	margin: 20px 10px 10px 100px;
+}
+
+.section1-title h4{
+	font-size: 30px;
+}
+
+.section1-title img{
+	margin-right: 10px;
+	margin-left: 3px;
+}
+
+.subline1{
+	margin-left: 39px;
+	width: 280px;
+}
+
+.section1-text{
+	margin: 30px 30px 30px 30px;
+	
+}
+.section1-text ul{
+	list-style: none;
+}
+
+.section1-text ul{
+	margin-top: 3px;
+	font-size: 16px;
+	font-weight: 450;
+}
+
+.section1-text ul li::before{
+	content: "✓";
+	color: white;
+	margin-right: 10px;
+	size: 10px;
+}
+
+.section1-text ul li{
+	margin-top: 20px;
+}
+
+/*------------Director Info--------------*/
+
+.director{
+	display: flex;
+	margin-top: 80px;
+	background-color: #EBEDF6;
+
+}
+.director-info{
+	display: flex;
+	margin: 10px 104px;
+}
+.director-info-img img{
+	flex-direction: row;
+	width: 200px;
+	height: 200px;
+	margin: 60px 60px 40px 40px;
+}
+.director-info-title{
+	flex-direction: row-reverse;
+	margin: 40px 40px 40px 40px;
+}
+.director-info-title h3{
+	font-size: 50px;
+	color: #F36827;
+}
+.director-info-title h6{
+	margin-left: 270px;
+	font-size: 15px;
+	color: #F36827;
+}
+
+.director-info-detail{
+	margin-top: 20px;
+	color: #2F3F60;
+	font-size: 25px;
+}
+
+
+
+
+
