@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#contact-banner{
+
+    background: url(../IMG/About/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+#contact-banner h1{
+    color: white;
+    padding: 24px 0px;
+}
+
+/* <------------form---> */
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    
+    background-color: #2F3F60;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    width: 400px;
+    margin: 48px auto;
+}
+
+input{
+        margin: 8px;
+        padding: 8px;
+        outline:none;
+        border-radius: 4px;
+        border: 1px solid white;
+        width: 70%;
+}
+
+#select{
+    
+}
+#select label{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-left: 8px;
+    outline:none;
+    
+
+}
+#select option{
+    padding: 8px;
+    
+
+}
+
+button{
+           height: 30px ;
+           width: 80px;
+           align-items: center;
+           text-align: center;
+           border-radius: 4px;
+           border: 1px solid white;
+           cursor: pointer;
+}
+
+#massage{
+          height: 50px;
+}
+
+
+
+/* <-----------Responsive----------> */
+@media screen and (max-width: 600px)
+{
+
+    form{
+        width: 300px;
+    }
+
+}
+@media screen and (max-width: 450px)
+{
+
+    form{
+        width: 200px;
+    }
+    #select{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+    }
+
+}
+@media screen and (max-width: 320px)
+{
+
+    form{
+        width: 150px;
+    }
+    #select{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+    }
+
+}
