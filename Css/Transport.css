@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* <--------------banner-------------> */
+#s-banner{
+    background: url(../IMG/services/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+}
+#s-banner h1{
+    color: white;
+    font-size: 48px;
+    padding: 32px 0px;
+}
+
+marquee{
+    background-color: #fff;
+    padding: 16px;
+}
+marquee img{
+    background-color: #fff;
+    margin: 2px 16px;
+}
+
+/* <---------------------service section--------------------> */
+
+#service{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0px;
+
+
+}
+#service-text{
+    /* border: 2px solid green; */
+    width: 40%;
+}
+#service-text h2{
+    color: #2F3F60;
+    font-size: 28px;
+}
+#service-text p{
+    color: #2F3F60;
+    opacity: 0.8;
+    font-size: 18px;
+}
+
+#service-text-menu{}
+.s-t-m-list{
+
+    display: flex;
+    flex-direction: row;
+    margin: 8px 0px;
+    align-items: center;
+
+}
+.s-t-m-list img{
+
+    height: 10px;
+}
+.s-t-m-list p{
+    margin-left: 2px;
+    
+    color: #2F3F60;
+}
+#service-img{
+    /* border: 2px solid yellow; */
+}
+#service-img img{
+
+    height: 270px;
+}
+/* <--client---> */
+#our-client{
+    background-color: #EBEDF6;
+}
+#our-client h2{
+    padding: 16px;
+    color: #2F3F60;
+    text-align: center;
+}
+
+/* <------------responsive-----------> */
+
+@media screen and (max-width: 500px){
+
+    #service-img img{
+
+        height: 100px;
+    }
+    
+    #service-text h2{
+        color: #2F3F60;
+        font-size: 18px;
+    }
+    #service-text p{
+        color: #2F3F60;
+        opacity: 0.8;
+        font-size: 11px;
+    }
+    #service-text{
+        /* border: 2px solid green; */
+        width: 50%;
+    }
+}

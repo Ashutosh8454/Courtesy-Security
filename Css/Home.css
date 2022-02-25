@@ -488,3 +488,14 @@
 
 
 /* Responsive css */
+
+
+/* <--client---> */
+#our-client{
+    background-color: #EBEDF6;
+}
+#our-client h2{
+    padding: 16px;
+    color: #2F3F60;
+    text-align: center;
+}
