@@ -499,3 +499,12 @@
     color: #2F3F60;
     text-align: center;
 }
+
+marquee {
+           background-color: #fff;
+           padding: 16px 0px;
+}
+marquee img{
+          margin: 0px 8px;
+}
+
