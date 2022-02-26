@@ -1,0 +1,22 @@
+{
+  "name": "courtesy-security",
+  "version": "1.0.0",
+  "description": "Courtesy Security India Pvt. Ltd. started in 2021 is formed by Mr Sachin S. Patil (Managing Director), having valued experience around 12 years in field of  labour contracting with an in-depth knowledge of various Legal matters  associated with labour related activities and we are introducing new  startup of security services through Courtesy security services.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashutosh8454/Courtesy-Security.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashutosh8454/Courtesy-Security/issues"
+  },
+  "homepage": "https://github.com/Ashutosh8454/Courtesy-Security#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
