@@ -1,6 +1,10 @@
 const express = require('express');
+const { hostname } = require('os');
 const path = require("path");
+const http =require('http');
+const https =require('https');
 const port = 80;
+const hostname="54.208.79.17";
 // mongoose.connect('mongodb://localhost/ashutoshkart', { useNewUrlParser: true });
 
 const app = express();
@@ -53,7 +57,7 @@ app.get('*', (req, res) => {
     res.status(404).send("404")
 })
 
-app.listen(port, (req, res) => {
+app.listen(port, hostname, (req, res) => {
 
     console.log(`servering at ${port}`);
 })
