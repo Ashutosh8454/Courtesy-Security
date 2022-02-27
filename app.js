@@ -11,7 +11,7 @@ const app = express();
 app.use('/Css', express.static('Css'));
 app.use('/IMG', express.static('IMG'));
 app.use('/javascript', express.static('javascript'));
-app.use(express.urlencoded());
+app.use(express.urlencoded({extended:false}));
 
 
 app.use(express.static(path.join(__dirname, 'Css')));
