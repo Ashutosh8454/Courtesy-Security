@@ -1,10 +1,9 @@
 const express = require('express');
-
 const path = require("path");
 const http =require('http');
 const https =require('https');
-const port = 80;
-const hostname="54.208.79.17";
+const port = process.env.PORT;
+const hostname="localhost";
 // mongoose.connect('mongodb://localhost/ashutoshkart', { useNewUrlParser: true });
 
 const app = express();
