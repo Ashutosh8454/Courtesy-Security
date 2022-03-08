@@ -2,7 +2,7 @@ const express = require('express');
 const path = require("path");
 const http =require('http');
 const https =require('https');
-const port = process.env.PORT | 80;
+const port = process.env.PORT | 443;
 
 // mongoose.connect('mongodb://localhost/ashutoshkart', { useNewUrlParser: true });
 
