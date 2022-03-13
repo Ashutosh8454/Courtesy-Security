@@ -9,13 +9,13 @@ const port = process.env.PORT | 3000;
 const app = express();
 app.use('/Css', express.static('Css'));
 app.use('/IMG', express.static('IMG'));
-app.use('/javascript', express.static('javascript'));
+app.use('/Javascript', express.static('Javascript'));
 app.use(express.urlencoded({extended:false}));
 
 
 app.use(express.static(path.join(__dirname, 'Css')));
 app.use(express.static(path.join(__dirname, 'IMG')));
-app.use(express.static(path.join(__dirname, 'javascript')));
+app.use(express.static(path.join(__dirname, 'Javascript')));
 
 app.get('/', (req, res, next) => {
 
